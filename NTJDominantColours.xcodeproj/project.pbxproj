@@ -7,13 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42F936BB1D05D04B00C5AB75 /* NTJDominantColours.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F936BA1D05D04B00C5AB75 /* NTJDominantColours.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09B66AADE12E4388AFB316F9 /* Pods_NTJDominantColoursDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58BA122A7182D55A11373841 /* Pods_NTJDominantColoursDemo.framework */; };
+		42F936CA1D05D06000C5AB75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F936C91D05D06000C5AB75 /* AppDelegate.m */; };
+		42F936CD1D05D06000C5AB75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F936CC1D05D06000C5AB75 /* main.m */; };
+		42F936D01D05D06000C5AB75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F936CF1D05D06000C5AB75 /* ViewController.m */; };
+		42F936D21D05D06000C5AB75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42F936D11D05D06000C5AB75 /* Assets.xcassets */; };
+		42F936D51D05D06000C5AB75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F936D31D05D06000C5AB75 /* Main.storyboard */; };
+		42F936E51D05D12A00C5AB75 /* apatt_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42F936DA1D05D12A00C5AB75 /* apatt_1.jpg */; };
+		42F936E61D05D12A00C5AB75 /* apatt_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42F936DB1D05D12A00C5AB75 /* apatt_2.jpg */; };
+		42F936E71D05D12A00C5AB75 /* apatt_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42F936DC1D05D12A00C5AB75 /* apatt_3.jpg */; };
+		42F936E81D05D12A00C5AB75 /* apatt_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42F936DD1D05D12A00C5AB75 /* apatt_4.jpg */; };
+		42F936E91D05D12A00C5AB75 /* bigblack_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42F936DE1D05D12A00C5AB75 /* bigblack_1.jpg */; };
+		42F936EA1D05D12A00C5AB75 /* mdam_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42F936DF1D05D12A00C5AB75 /* mdam_1.jpg */; };
+		42F936EB1D05D12A00C5AB75 /* pantha_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42F936E01D05D12A00C5AB75 /* pantha_1.jpg */; };
+		42F936EC1D05D12A00C5AB75 /* shellac_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42F936E11D05D12A00C5AB75 /* shellac_1.jpg */; };
+		42F936ED1D05D12A00C5AB75 /* shellac_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42F936E21D05D12A00C5AB75 /* shellac_2.jpg */; };
+		42F936EE1D05D12A00C5AB75 /* shellac_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42F936E31D05D12A00C5AB75 /* shellac_3.jpg */; };
+		42F936EF1D05D12A00C5AB75 /* ursprung_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42F936E41D05D12A00C5AB75 /* ursprung_1.jpg */; };
+		42F936F21D05D46300C5AB75 /* NTJDominantColourProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F936F01D05D46300C5AB75 /* NTJDominantColourProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42F936F31D05D46300C5AB75 /* NTJDominantColourProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F936F11D05D46300C5AB75 /* NTJDominantColourProcessor.m */; };
+		42F936F61D05D49200C5AB75 /* NTJDominantColourResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F936F41D05D49200C5AB75 /* NTJDominantColourResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42F936F71D05D49200C5AB75 /* NTJDominantColourResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F936F51D05D49200C5AB75 /* NTJDominantColourResult.m */; };
+		42F936FC1D05D5FD00C5AB75 /* NTJDominantColours.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F936B71D05D04B00C5AB75 /* NTJDominantColours.framework */; };
+		42F936FE1D05D65B00C5AB75 /* NTJDominantColours.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F936FD1D05D61800C5AB75 /* NTJDominantColours.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42F937011D05DD5700C5AB75 /* NTJSolidColourView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F937001D05DD5700C5AB75 /* NTJSolidColourView.m */; };
+		42F937041D06ACCD00C5AB75 /* NTJImageResizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F937021D06ACCD00C5AB75 /* NTJImageResizer.h */; };
+		42F937051D06ACCD00C5AB75 /* NTJImageResizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F937031D06ACCD00C5AB75 /* NTJImageResizer.m */; };
+		42F937081D06AF6900C5AB75 /* NTJColourExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F937061D06AF6900C5AB75 /* NTJColourExtractor.h */; };
+		42F937091D06AF6900C5AB75 /* NTJColourExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F937071D06AF6900C5AB75 /* NTJColourExtractor.m */; };
+		FA0E0844D449158B2186B6BC /* libPods-NTJDominantColours.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE0FED3A446ADF139A32F79 /* libPods-NTJDominantColours.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		42F936FA1D05D5ED00C5AB75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42F936AE1D05D04B00C5AB75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42F936B61D05D04B00C5AB75;
+			remoteInfo = NTJDominantColours;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		3F9E2918CCC1D73562AF7EBE /* Pods-NTJDominantColoursDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTJDominantColoursDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NTJDominantColoursDemo/Pods-NTJDominantColoursDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		42F936B71D05D04B00C5AB75 /* NTJDominantColours.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NTJDominantColours.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		42F936BA1D05D04B00C5AB75 /* NTJDominantColours.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTJDominantColours.h; sourceTree = "<group>"; };
 		42F936BC1D05D04B00C5AB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F936C61D05D06000C5AB75 /* NTJDominantColoursDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTJDominantColoursDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F936C81D05D06000C5AB75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42F936C91D05D06000C5AB75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42F936CC1D05D06000C5AB75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42F936CE1D05D06000C5AB75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		42F936CF1D05D06000C5AB75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		42F936D11D05D06000C5AB75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42F936D41D05D06000C5AB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42F936D61D05D06000C5AB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F936DA1D05D12A00C5AB75 /* apatt_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = apatt_1.jpg; path = ../../BilateralFilter/NTJBilateralCIFilterDemo/apatt_1.jpg; sourceTree = "<group>"; };
+		42F936DB1D05D12A00C5AB75 /* apatt_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = apatt_2.jpg; path = ../../BilateralFilter/NTJBilateralCIFilterDemo/apatt_2.jpg; sourceTree = "<group>"; };
+		42F936DC1D05D12A00C5AB75 /* apatt_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = apatt_3.jpg; path = ../../BilateralFilter/NTJBilateralCIFilterDemo/apatt_3.jpg; sourceTree = "<group>"; };
+		42F936DD1D05D12A00C5AB75 /* apatt_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = apatt_4.jpg; path = ../../BilateralFilter/NTJBilateralCIFilterDemo/apatt_4.jpg; sourceTree = "<group>"; };
+		42F936DE1D05D12A00C5AB75 /* bigblack_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bigblack_1.jpg; path = ../../BilateralFilter/NTJBilateralCIFilterDemo/bigblack_1.jpg; sourceTree = "<group>"; };
+		42F936DF1D05D12A00C5AB75 /* mdam_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mdam_1.jpg; path = ../../BilateralFilter/NTJBilateralCIFilterDemo/mdam_1.jpg; sourceTree = "<group>"; };
+		42F936E01D05D12A00C5AB75 /* pantha_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pantha_1.jpg; path = ../../BilateralFilter/NTJBilateralCIFilterDemo/pantha_1.jpg; sourceTree = "<group>"; };
+		42F936E11D05D12A00C5AB75 /* shellac_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = shellac_1.jpg; path = ../../BilateralFilter/NTJBilateralCIFilterDemo/shellac_1.jpg; sourceTree = "<group>"; };
+		42F936E21D05D12A00C5AB75 /* shellac_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = shellac_2.jpg; path = ../../BilateralFilter/NTJBilateralCIFilterDemo/shellac_2.jpg; sourceTree = "<group>"; };
+		42F936E31D05D12A00C5AB75 /* shellac_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = shellac_3.jpg; path = ../../BilateralFilter/NTJBilateralCIFilterDemo/shellac_3.jpg; sourceTree = "<group>"; };
+		42F936E41D05D12A00C5AB75 /* ursprung_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ursprung_1.jpg; path = ../../BilateralFilter/NTJBilateralCIFilterDemo/ursprung_1.jpg; sourceTree = "<group>"; };
+		42F936F01D05D46300C5AB75 /* NTJDominantColourProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTJDominantColourProcessor.h; sourceTree = "<group>"; };
+		42F936F11D05D46300C5AB75 /* NTJDominantColourProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTJDominantColourProcessor.m; sourceTree = "<group>"; };
+		42F936F41D05D49200C5AB75 /* NTJDominantColourResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTJDominantColourResult.h; sourceTree = "<group>"; };
+		42F936F51D05D49200C5AB75 /* NTJDominantColourResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTJDominantColourResult.m; sourceTree = "<group>"; };
+		42F936FD1D05D61800C5AB75 /* NTJDominantColours.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTJDominantColours.h; sourceTree = "<group>"; };
+		42F936FF1D05DD5700C5AB75 /* NTJSolidColourView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTJSolidColourView.h; sourceTree = "<group>"; };
+		42F937001D05DD5700C5AB75 /* NTJSolidColourView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTJSolidColourView.m; sourceTree = "<group>"; };
+		42F937021D06ACCD00C5AB75 /* NTJImageResizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTJImageResizer.h; sourceTree = "<group>"; };
+		42F937031D06ACCD00C5AB75 /* NTJImageResizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTJImageResizer.m; sourceTree = "<group>"; };
+		42F937061D06AF6900C5AB75 /* NTJColourExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTJColourExtractor.h; sourceTree = "<group>"; };
+		42F937071D06AF6900C5AB75 /* NTJColourExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTJColourExtractor.m; sourceTree = "<group>"; };
+		493B5F370680AFCD8B05820E /* Pods-NTJDominantColoursDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTJDominantColoursDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NTJDominantColoursDemo/Pods-NTJDominantColoursDemo.release.xcconfig"; sourceTree = "<group>"; };
+		58BA122A7182D55A11373841 /* Pods_NTJDominantColoursDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NTJDominantColoursDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE0FED3A446ADF139A32F79 /* libPods-NTJDominantColours.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NTJDominantColours.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D9316BE7C170C0F77E6776 /* Pods-NTJDominantColours.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTJDominantColours.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NTJDominantColours/Pods-NTJDominantColours.debug.xcconfig"; sourceTree = "<group>"; };
+		FA510DABF3665C3B63D202C3 /* Pods-NTJDominantColours.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTJDominantColours.release.xcconfig"; path = "Pods/Target Support Files/Pods-NTJDominantColours/Pods-NTJDominantColours.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +95,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA0E0844D449158B2186B6BC /* libPods-NTJDominantColours.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F936C31D05D06000C5AB75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F936FC1D05D5FD00C5AB75 /* NTJDominantColours.framework in Frameworks */,
+				09B66AADE12E4388AFB316F9 /* Pods_NTJDominantColoursDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -31,7 +115,10 @@
 			isa = PBXGroup;
 			children = (
 				42F936B91D05D04B00C5AB75 /* NTJDominantColours */,
+				42F936C71D05D06000C5AB75 /* NTJDominantColoursDemo */,
 				42F936B81D05D04B00C5AB75 /* Products */,
+				E2C9174DF325ABC6E5080D21 /* Pods */,
+				E402517DF97AC540DAAE85E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				42F936B71D05D04B00C5AB75 /* NTJDominantColours.framework */,
+				42F936C61D05D06000C5AB75 /* NTJDominantColoursDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,10 +134,74 @@
 		42F936B91D05D04B00C5AB75 /* NTJDominantColours */ = {
 			isa = PBXGroup;
 			children = (
-				42F936BA1D05D04B00C5AB75 /* NTJDominantColours.h */,
 				42F936BC1D05D04B00C5AB75 /* Info.plist */,
+				42F936FD1D05D61800C5AB75 /* NTJDominantColours.h */,
+				42F936F01D05D46300C5AB75 /* NTJDominantColourProcessor.h */,
+				42F936F11D05D46300C5AB75 /* NTJDominantColourProcessor.m */,
+				42F936F41D05D49200C5AB75 /* NTJDominantColourResult.h */,
+				42F936F51D05D49200C5AB75 /* NTJDominantColourResult.m */,
+				42F937021D06ACCD00C5AB75 /* NTJImageResizer.h */,
+				42F937031D06ACCD00C5AB75 /* NTJImageResizer.m */,
+				42F937061D06AF6900C5AB75 /* NTJColourExtractor.h */,
+				42F937071D06AF6900C5AB75 /* NTJColourExtractor.m */,
 			);
 			path = NTJDominantColours;
+			sourceTree = "<group>";
+		};
+		42F936C71D05D06000C5AB75 /* NTJDominantColoursDemo */ = {
+			isa = PBXGroup;
+			children = (
+				42F936C81D05D06000C5AB75 /* AppDelegate.h */,
+				42F936C91D05D06000C5AB75 /* AppDelegate.m */,
+				42F936CE1D05D06000C5AB75 /* ViewController.h */,
+				42F936CF1D05D06000C5AB75 /* ViewController.m */,
+				42F936D11D05D06000C5AB75 /* Assets.xcassets */,
+				42F936D31D05D06000C5AB75 /* Main.storyboard */,
+				42F936D61D05D06000C5AB75 /* Info.plist */,
+				42F936CB1D05D06000C5AB75 /* Supporting Files */,
+				42F936FF1D05DD5700C5AB75 /* NTJSolidColourView.h */,
+				42F937001D05DD5700C5AB75 /* NTJSolidColourView.m */,
+			);
+			path = NTJDominantColoursDemo;
+			sourceTree = "<group>";
+		};
+		42F936CB1D05D06000C5AB75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42F936DA1D05D12A00C5AB75 /* apatt_1.jpg */,
+				42F936DB1D05D12A00C5AB75 /* apatt_2.jpg */,
+				42F936DC1D05D12A00C5AB75 /* apatt_3.jpg */,
+				42F936DD1D05D12A00C5AB75 /* apatt_4.jpg */,
+				42F936DE1D05D12A00C5AB75 /* bigblack_1.jpg */,
+				42F936DF1D05D12A00C5AB75 /* mdam_1.jpg */,
+				42F936E01D05D12A00C5AB75 /* pantha_1.jpg */,
+				42F936E11D05D12A00C5AB75 /* shellac_1.jpg */,
+				42F936E21D05D12A00C5AB75 /* shellac_2.jpg */,
+				42F936E31D05D12A00C5AB75 /* shellac_3.jpg */,
+				42F936E41D05D12A00C5AB75 /* ursprung_1.jpg */,
+				42F936CC1D05D06000C5AB75 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2C9174DF325ABC6E5080D21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0D9316BE7C170C0F77E6776 /* Pods-NTJDominantColours.debug.xcconfig */,
+				FA510DABF3665C3B63D202C3 /* Pods-NTJDominantColours.release.xcconfig */,
+				3F9E2918CCC1D73562AF7EBE /* Pods-NTJDominantColoursDemo.debug.xcconfig */,
+				493B5F370680AFCD8B05820E /* Pods-NTJDominantColoursDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E402517DF97AC540DAAE85E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FE0FED3A446ADF139A32F79 /* libPods-NTJDominantColours.a */,
+				58BA122A7182D55A11373841 /* Pods_NTJDominantColoursDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +211,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42F936BB1D05D04B00C5AB75 /* NTJDominantColours.h in Headers */,
+				42F936F61D05D49200C5AB75 /* NTJDominantColourResult.h in Headers */,
+				42F936F21D05D46300C5AB75 /* NTJDominantColourProcessor.h in Headers */,
+				42F937041D06ACCD00C5AB75 /* NTJImageResizer.h in Headers */,
+				42F937081D06AF6900C5AB75 /* NTJColourExtractor.h in Headers */,
+				42F936FE1D05D65B00C5AB75 /* NTJDominantColours.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,10 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42F936BF1D05D04B00C5AB75 /* Build configuration list for PBXNativeTarget "NTJDominantColours" */;
 			buildPhases = (
+				3E1ED64C8F7DD4BC9F62FED8 /* [CP] Check Pods Manifest.lock */,
 				42F936B21D05D04B00C5AB75 /* Sources */,
 				42F936B31D05D04B00C5AB75 /* Frameworks */,
 				42F936B41D05D04B00C5AB75 /* Headers */,
 				42F936B51D05D04B00C5AB75 /* Resources */,
+				F8A41D644222FE9A78FEB2D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -83,6 +241,27 @@
 			productName = NTJDominantColours;
 			productReference = 42F936B71D05D04B00C5AB75 /* NTJDominantColours.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		42F936C51D05D06000C5AB75 /* NTJDominantColoursDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F936D71D05D06000C5AB75 /* Build configuration list for PBXNativeTarget "NTJDominantColoursDemo" */;
+			buildPhases = (
+				48DC4DA5D58B6AFD229A1C97 /* [CP] Check Pods Manifest.lock */,
+				42F936C21D05D06000C5AB75 /* Sources */,
+				42F936C31D05D06000C5AB75 /* Frameworks */,
+				42F936C41D05D06000C5AB75 /* Resources */,
+				77AA4897C2EBD5E7390FD427 /* [CP] Embed Pods Frameworks */,
+				20AF00FC69EF6D40D45DBB4D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42F936FB1D05D5ED00C5AB75 /* PBXTargetDependency */,
+			);
+			name = NTJDominantColoursDemo;
+			productName = NTJDominantColoursDemo;
+			productReference = 42F936C61D05D06000C5AB75 /* NTJDominantColoursDemo.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,6 +275,9 @@
 					42F936B61D05D04B00C5AB75 = {
 						CreatedOnToolsVersion = 7.3;
 					};
+					42F936C51D05D06000C5AB75 = {
+						CreatedOnToolsVersion = 7.3;
+					};
 				};
 			};
 			buildConfigurationList = 42F936B11D05D04B00C5AB75 /* Build configuration list for PBXProject "NTJDominantColours" */;
@@ -104,6 +286,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 42F936AD1D05D04B00C5AB75;
 			productRefGroup = 42F936B81D05D04B00C5AB75 /* Products */;
@@ -111,6 +294,7 @@
 			projectRoot = "";
 			targets = (
 				42F936B61D05D04B00C5AB75 /* NTJDominantColours */,
+				42F936C51D05D06000C5AB75 /* NTJDominantColoursDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -123,17 +307,149 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		42F936C41D05D06000C5AB75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F936ED1D05D12A00C5AB75 /* shellac_2.jpg in Resources */,
+				42F936EA1D05D12A00C5AB75 /* mdam_1.jpg in Resources */,
+				42F936D21D05D06000C5AB75 /* Assets.xcassets in Resources */,
+				42F936E81D05D12A00C5AB75 /* apatt_4.jpg in Resources */,
+				42F936EB1D05D12A00C5AB75 /* pantha_1.jpg in Resources */,
+				42F936EC1D05D12A00C5AB75 /* shellac_1.jpg in Resources */,
+				42F936E61D05D12A00C5AB75 /* apatt_2.jpg in Resources */,
+				42F936E91D05D12A00C5AB75 /* bigblack_1.jpg in Resources */,
+				42F936E71D05D12A00C5AB75 /* apatt_3.jpg in Resources */,
+				42F936EF1D05D12A00C5AB75 /* ursprung_1.jpg in Resources */,
+				42F936E51D05D12A00C5AB75 /* apatt_1.jpg in Resources */,
+				42F936EE1D05D12A00C5AB75 /* shellac_3.jpg in Resources */,
+				42F936D51D05D06000C5AB75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20AF00FC69EF6D40D45DBB4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NTJDominantColoursDemo/Pods-NTJDominantColoursDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E1ED64C8F7DD4BC9F62FED8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		48DC4DA5D58B6AFD229A1C97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77AA4897C2EBD5E7390FD427 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NTJDominantColoursDemo/Pods-NTJDominantColoursDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8A41D644222FE9A78FEB2D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NTJDominantColours/Pods-NTJDominantColours-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		42F936B21D05D04B00C5AB75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42F936F31D05D46300C5AB75 /* NTJDominantColourProcessor.m in Sources */,
+				42F937051D06ACCD00C5AB75 /* NTJImageResizer.m in Sources */,
+				42F936F71D05D49200C5AB75 /* NTJDominantColourResult.m in Sources */,
+				42F937091D06AF6900C5AB75 /* NTJColourExtractor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F936C21D05D06000C5AB75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F936D01D05D06000C5AB75 /* ViewController.m in Sources */,
+				42F937011D05DD5700C5AB75 /* NTJSolidColourView.m in Sources */,
+				42F936CD1D05D06000C5AB75 /* main.m in Sources */,
+				42F936CA1D05D06000C5AB75 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42F936FB1D05D5ED00C5AB75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42F936B61D05D04B00C5AB75 /* NTJDominantColours */;
+			targetProxy = 42F936FA1D05D5ED00C5AB75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42F936D31D05D06000C5AB75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42F936D41D05D06000C5AB75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		42F936BD1D05D04B00C5AB75 /* Debug */ = {
@@ -225,6 +541,7 @@
 		};
 		42F936C01D05D04B00C5AB75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0D9316BE7C170C0F77E6776 /* Pods-NTJDominantColours.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -243,6 +560,7 @@
 		};
 		42F936C11D05D04B00C5AB75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA510DABF3665C3B63D202C3 /* Pods-NTJDominantColours.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -256,6 +574,32 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.notjosh.NTJDominantColours;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		42F936D81D05D06000C5AB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F9E2918CCC1D73562AF7EBE /* Pods-NTJDominantColoursDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NTJDominantColoursDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.notjosh.NTJDominantColoursDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42F936D91D05D06000C5AB75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 493B5F370680AFCD8B05820E /* Pods-NTJDominantColoursDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NTJDominantColoursDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.notjosh.NTJDominantColoursDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -278,6 +622,16 @@
 				42F936C11D05D04B00C5AB75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42F936D71D05D06000C5AB75 /* Build configuration list for PBXNativeTarget "NTJDominantColoursDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F936D81D05D06000C5AB75 /* Debug */,
+				42F936D91D05D06000C5AB75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

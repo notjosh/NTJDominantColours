@@ -1,0 +1,21 @@
+PODS:
+  - NTJBilateralCIFilter (1.0.0)
+
+DEPENDENCIES:
+  - NTJBilateralCIFilter (from `https://github.com/notjosh/NTJBilateralCIFilter.git`)
+
+EXTERNAL SOURCES:
+  NTJBilateralCIFilter:
+    :git: https://github.com/notjosh/NTJBilateralCIFilter.git
+
+CHECKOUT OPTIONS:
+  NTJBilateralCIFilter:
+    :commit: 451f9e8cfb9fdac6f735eb35cecaeef2288cb4de
+    :git: https://github.com/notjosh/NTJBilateralCIFilter.git
+
+SPEC CHECKSUMS:
+  NTJBilateralCIFilter: 66733f5d4df332b74edbfc1fb444dafd3432a028
+
+PODFILE CHECKSUM: 726a3e94211df4c0ad030932b24fa15747433394
+
+COCOAPODS: 1.0.1

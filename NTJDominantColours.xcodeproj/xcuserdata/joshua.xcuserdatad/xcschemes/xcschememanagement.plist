@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>NTJDominantColoursDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>42F936B61D05D04B00C5AB75</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>42F936C51D05D06000C5AB75</key>
 		<dict>
 			<key>primary</key>
 			<true/>
