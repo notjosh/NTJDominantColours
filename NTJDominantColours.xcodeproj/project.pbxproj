@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09B66AADE12E4388AFB316F9 /* Pods_NTJDominantColoursDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58BA122A7182D55A11373841 /* Pods_NTJDominantColoursDemo.framework */; };
+		42115F471D0AF267005ED22B /* NTJBilateralCIFilter.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 42F9370F1D092F2900C5AB75 /* NTJBilateralCIFilter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		42F936CA1D05D06000C5AB75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F936C91D05D06000C5AB75 /* AppDelegate.m */; };
 		42F936CD1D05D06000C5AB75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F936CC1D05D06000C5AB75 /* main.m */; };
 		42F936D01D05D06000C5AB75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F936CF1D05D06000C5AB75 /* ViewController.m */; };
@@ -35,7 +35,9 @@
 		42F937051D06ACCD00C5AB75 /* NTJImageResizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F937031D06ACCD00C5AB75 /* NTJImageResizer.m */; };
 		42F937081D06AF6900C5AB75 /* NTJColourExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F937061D06AF6900C5AB75 /* NTJColourExtractor.h */; };
 		42F937091D06AF6900C5AB75 /* NTJColourExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F937071D06AF6900C5AB75 /* NTJColourExtractor.m */; };
-		FA0E0844D449158B2186B6BC /* libPods-NTJDominantColours.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE0FED3A446ADF139A32F79 /* libPods-NTJDominantColours.a */; };
+		42F9370D1D092ECF00C5AB75 /* NTJImageFilterer.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F9370B1D092ECF00C5AB75 /* NTJImageFilterer.h */; };
+		42F9370E1D092ECF00C5AB75 /* NTJImageFilterer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F9370C1D092ECF00C5AB75 /* NTJImageFilterer.m */; };
+		81BB05DABF8FE463268A17FD /* Pods_NTJDominantColours.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B9A22E6298D549501CA2AF /* Pods_NTJDominantColours.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +50,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		42115F461D0AF260005ED22B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				42115F471D0AF267005ED22B /* NTJBilateralCIFilter.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		3F9E2918CCC1D73562AF7EBE /* Pods-NTJDominantColoursDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTJDominantColoursDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NTJDominantColoursDemo/Pods-NTJDominantColoursDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		42F936B71D05D04B00C5AB75 /* NTJDominantColours.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NTJDominantColours.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F936BC1D05D04B00C5AB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42F936C61D05D06000C5AB75 /* NTJDominantColoursDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTJDominantColoursDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,11 +97,13 @@
 		42F937031D06ACCD00C5AB75 /* NTJImageResizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTJImageResizer.m; sourceTree = "<group>"; };
 		42F937061D06AF6900C5AB75 /* NTJColourExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTJColourExtractor.h; sourceTree = "<group>"; };
 		42F937071D06AF6900C5AB75 /* NTJColourExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTJColourExtractor.m; sourceTree = "<group>"; };
-		493B5F370680AFCD8B05820E /* Pods-NTJDominantColoursDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTJDominantColoursDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NTJDominantColoursDemo/Pods-NTJDominantColoursDemo.release.xcconfig"; sourceTree = "<group>"; };
-		58BA122A7182D55A11373841 /* Pods_NTJDominantColoursDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NTJDominantColoursDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FE0FED3A446ADF139A32F79 /* libPods-NTJDominantColours.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NTJDominantColours.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F9370B1D092ECF00C5AB75 /* NTJImageFilterer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTJImageFilterer.h; sourceTree = "<group>"; };
+		42F9370C1D092ECF00C5AB75 /* NTJImageFilterer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTJImageFilterer.m; sourceTree = "<group>"; };
+		42F9370F1D092F2900C5AB75 /* NTJBilateralCIFilter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NTJBilateralCIFilter.framework; path = "../../../Library/Developer/Xcode/DerivedData/NTJDominantColours-coosywtqzgjvzzfqnoodaxyjhuqf/Build/Products/Debug/NTJBilateralCIFilter/NTJBilateralCIFilter.framework"; sourceTree = "<group>"; };
+		72B9A22E6298D549501CA2AF /* Pods_NTJDominantColours.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NTJDominantColours.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D9316BE7C170C0F77E6776 /* Pods-NTJDominantColours.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTJDominantColours.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NTJDominantColours/Pods-NTJDominantColours.debug.xcconfig"; sourceTree = "<group>"; };
 		FA510DABF3665C3B63D202C3 /* Pods-NTJDominantColours.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTJDominantColours.release.xcconfig"; path = "Pods/Target Support Files/Pods-NTJDominantColours/Pods-NTJDominantColours.release.xcconfig"; sourceTree = "<group>"; };
+		FC4BB8F0E91AD413A092F522 /* libPods-NTJDominantColoursDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NTJDominantColoursDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA0E0844D449158B2186B6BC /* libPods-NTJDominantColours.a in Frameworks */,
+				81BB05DABF8FE463268A17FD /* Pods_NTJDominantColours.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +120,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				42F936FC1D05D5FD00C5AB75 /* NTJDominantColours.framework in Frameworks */,
-				09B66AADE12E4388AFB316F9 /* Pods_NTJDominantColoursDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +159,8 @@
 				42F937031D06ACCD00C5AB75 /* NTJImageResizer.m */,
 				42F937061D06AF6900C5AB75 /* NTJColourExtractor.h */,
 				42F937071D06AF6900C5AB75 /* NTJColourExtractor.m */,
+				42F9370B1D092ECF00C5AB75 /* NTJImageFilterer.h */,
+				42F9370C1D092ECF00C5AB75 /* NTJImageFilterer.m */,
 			);
 			path = NTJDominantColours;
 			sourceTree = "<group>";
@@ -189,8 +206,6 @@
 			children = (
 				F0D9316BE7C170C0F77E6776 /* Pods-NTJDominantColours.debug.xcconfig */,
 				FA510DABF3665C3B63D202C3 /* Pods-NTJDominantColours.release.xcconfig */,
-				3F9E2918CCC1D73562AF7EBE /* Pods-NTJDominantColoursDemo.debug.xcconfig */,
-				493B5F370680AFCD8B05820E /* Pods-NTJDominantColoursDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -198,8 +213,9 @@
 		E402517DF97AC540DAAE85E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9FE0FED3A446ADF139A32F79 /* libPods-NTJDominantColours.a */,
-				58BA122A7182D55A11373841 /* Pods_NTJDominantColoursDemo.framework */,
+				42F9370F1D092F2900C5AB75 /* NTJBilateralCIFilter.framework */,
+				72B9A22E6298D549501CA2AF /* Pods_NTJDominantColours.framework */,
+				FC4BB8F0E91AD413A092F522 /* libPods-NTJDominantColoursDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -215,6 +231,7 @@
 				42F936F21D05D46300C5AB75 /* NTJDominantColourProcessor.h in Headers */,
 				42F937041D06ACCD00C5AB75 /* NTJImageResizer.h in Headers */,
 				42F937081D06AF6900C5AB75 /* NTJColourExtractor.h in Headers */,
+				42F9370D1D092ECF00C5AB75 /* NTJImageFilterer.h in Headers */,
 				42F936FE1D05D65B00C5AB75 /* NTJDominantColours.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,12 +263,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42F936D71D05D06000C5AB75 /* Build configuration list for PBXNativeTarget "NTJDominantColoursDemo" */;
 			buildPhases = (
-				48DC4DA5D58B6AFD229A1C97 /* [CP] Check Pods Manifest.lock */,
 				42F936C21D05D06000C5AB75 /* Sources */,
 				42F936C31D05D06000C5AB75 /* Frameworks */,
 				42F936C41D05D06000C5AB75 /* Resources */,
-				77AA4897C2EBD5E7390FD427 /* [CP] Embed Pods Frameworks */,
-				20AF00FC69EF6D40D45DBB4D /* [CP] Copy Pods Resources */,
+				42115F461D0AF260005ED22B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -330,21 +345,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		20AF00FC69EF6D40D45DBB4D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NTJDominantColoursDemo/Pods-NTJDominantColoursDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3E1ED64C8F7DD4BC9F62FED8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -358,36 +358,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		48DC4DA5D58B6AFD229A1C97 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		77AA4897C2EBD5E7390FD427 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NTJDominantColoursDemo/Pods-NTJDominantColoursDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F8A41D644222FE9A78FEB2D3 /* [CP] Copy Pods Resources */ = {
@@ -416,6 +386,7 @@
 				42F937051D06ACCD00C5AB75 /* NTJImageResizer.m in Sources */,
 				42F936F71D05D49200C5AB75 /* NTJDominantColourResult.m in Sources */,
 				42F937091D06AF6900C5AB75 /* NTJColourExtractor.m in Sources */,
+				42F9370E1D092ECF00C5AB75 /* NTJImageFilterer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,7 +550,6 @@
 		};
 		42F936D81D05D06000C5AB75 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F9E2918CCC1D73562AF7EBE /* Pods-NTJDominantColoursDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -592,7 +562,6 @@
 		};
 		42F936D91D05D06000C5AB75 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 493B5F370680AFCD8B05820E /* Pods-NTJDominantColoursDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;

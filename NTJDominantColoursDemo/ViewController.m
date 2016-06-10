@@ -9,7 +9,6 @@
 #import "ViewController.h"
 
 @import NTJDominantColours;
-@import NTJBilateralCIFilter;
 
 #import "NTJSolidColourView.h"
 

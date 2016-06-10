@@ -10,6 +10,7 @@
 
 #import "NTJColourExtractor.h"
 #import "NTJDominantColourResult.h"
+#import "NTJImageFilterer.h"
 #import "NTJImageResizer.h"
 
 NSSize sizeToAspectFitDimension(NSSize size, CGFloat dimension) {
@@ -64,6 +65,9 @@ static CGFloat const NTJDominantColourProcessorMaxDimension = 30.f;
         // process:
 
         NSSize size = sizeToAspectFitDimension(image.size, NTJDominantColourProcessorMaxDimension);
+
+        NTJImageFilterer *filterer = [NTJImageFilterer new];
+        workImage = [filterer filter:workImage];
 
         NTJImageResizer *resizer = [NTJImageResizer new];
         workImage = [resizer resize:workImage

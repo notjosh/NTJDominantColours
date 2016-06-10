@@ -10,12 +10,12 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   NTJBilateralCIFilter:
-    :commit: 451f9e8cfb9fdac6f735eb35cecaeef2288cb4de
+    :commit: b05d0ba2fdcba6318aea40f6f225c5a7db3ff512
     :git: https://github.com/notjosh/NTJBilateralCIFilter.git
 
 SPEC CHECKSUMS:
   NTJBilateralCIFilter: 66733f5d4df332b74edbfc1fb444dafd3432a028
 
-PODFILE CHECKSUM: 726a3e94211df4c0ad030932b24fa15747433394
+PODFILE CHECKSUM: d9cb7a50cced53176f1a07fe36864568b787aa3f
 
 COCOAPODS: 1.0.1
